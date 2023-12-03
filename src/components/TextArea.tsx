@@ -11,8 +11,8 @@ interface Props {
 const commonStyle = {
   height: '300px',
   width: '300px',
-  border: 0,
-  resize: 'none'
+  border: 0
+  // resize: 'none'
 }
 
 const getPlaceholder = ({ type, loading }: { type: SectionType, loading?: boolean }) => {
